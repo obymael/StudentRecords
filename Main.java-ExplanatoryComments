@@ -33,7 +33,7 @@ public class Main {
 
         // REFACTORING CODE STARTS HERE
         Scanner scanner = new Scanner(System.in);
-        System.out.print("Enter the name of the student who will receive bonus points: ");
+        System.out.print("\nEnter the name of the student who will receive bonus points: ");
         String studentName = scanner.nextLine();
         System.out.print("Enter the amount of bonus points (max 10): ");
         int bonus = scanner.nextInt();
