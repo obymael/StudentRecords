@@ -32,7 +32,6 @@ public class Main {
 
         boolean studentFound = false;
         int i = 0;
-        // she did the > instead of <, hers doesn't work
         while (!studentFound && i < studentRecords.length){
             if (studentName.equalsIgnoreCase(updatedRecords[i].name)){
                 updatedRecords[i].score += bonus;
